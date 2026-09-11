@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vježba Rollover</title>
+    <link href="rollover.css" rel="stylesheet">
+</head>
+<body>
+    <h2>Moje slike</h2>
+    <img src="slika1.jpg" width="200" height="150" alt="Slika 1">
+    <img src="slika2.png" width="200" height="150" alt="Slika 2">
+    <img id="mojaSlika" 
+         src="slika3.jpg" 
+         width="200" 
+         height="150" 
+         alt="Slika 3"
+         onmouseover="document.getElementById('mojaSlika').src='zamjenska.jpg'"
+         onmouseout="document.getElementById('mojaSlika').src='slika3.jpg'">
+
+</body>
+</html>
